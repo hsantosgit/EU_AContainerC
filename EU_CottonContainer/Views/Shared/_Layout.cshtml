@@ -1,0 +1,180 @@
+﻿@using EU_CottonContainer.Model
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <meta charset="null" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store" />
+    <title>American Cotton</title>
+    <link rel="icon" href='@Url.Content("~/kaia/img/logoico.ico")' type="image/x-icon">
+    <link href='@Url.Content("~/kaia/css/bootstrap.min.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/css/2bootstrap.min.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/kaia/css/demo.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/kaia/css/plugins.min.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/css/reset.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/kaia/css/kaiadmin.min.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/css/euro.css")' rel="stylesheet" />
+
+    <link href='@Url.Content("~/kaia/css/fonts.min.css")' rel="stylesheet" />
+    <link href='@Url.Content("~/kaia/css/fonts.css")' rel="stylesheet" />
+
+    <!--   Core JS Files   -->
+    <script src='@Url.Content("~/kaia/js/core/jquery-3.7.1.min.js")'></script>
+    <script src='@Url.Content("~/js/jquery.redirect.js")'></script>
+    <script src='@Url.Content("~/kaia/js/core/popper.min.js")'></script>
+    <script src='@Url.Content("~/kaia/js/core/bootstrap.min.js")'></script>
+    <!-- jQuery Scrollbar -->
+    <script src='@Url.Content("~/kaia/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js")'></script>
+    <!-- Datatables -->
+    <script src='@Url.Content("~/kaia/js/plugin/datatables/datatables.min.js")'></script>
+    <!-- Bootstrap Notify -->
+    @* <script src='@Url.Content("~/kaia/js/plugin/bootstrap-notify/bootstrap-notify.min.js")'></script> *@
+    <!-- Sweet Alert -->
+    <script src='@Url.Content("~/kaia/js/plugin/sweetalert/sweetalert.min.js")'></script>
+    <!-- Kaiadmin JS -->
+    <script src='@Url.Content("~/kaia/js/kaiadmin.min.js")'></script>
+
+    <script src='@Url.Content("~/kaia/js/plugin/webfont/webfont.min.js")'></script>
+    <script>
+        WebFont.load({
+                google: { families: ["Public Sans:300,400,500,600,700"] },
+                custom: {
+                  families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                  ],
+                  urls: ['@Url.Content("~/kaia/css/fonts.min.css")'],
+                },
+                active: function () {
+                  sessionStorage.fonts = true;
+                },
+              });
+    </script>
+    <script nonce="2726c7f26c">
+        $(document).ready(function(){
+            $('.collapse li').click(function() {
+                var itemtxsl = $(this).text();
+                itemtxsl = itemtxsl.trim();
+                const selectIt = $('.option:contains("'+itemtxsl+'")');
+                if (selectIt)
+                {
+                    selectIt.attr('class', 'active');
+                }
+                else
+                {
+                    selectIt.removeAttr('class','active');
+                }
+            });
+        });
+    </script>
+    <style>
+        .loading-image {
+            position: absolute !important;
+            top: 43% !important;
+            left: 48% !important;
+            z-index: 10 !important;
+            width: 80px !important;
+            height: 80px !important;
+        }
+
+        .loader {
+            display: none;
+            width: 100% !important;
+            height: 100% !important;
+            position: fixed !important;
+            text-align: center !important;
+            z-index: 10000 !important;
+            opacity: 0.50 !important;
+            overflow: auto !important;
+            background: #999 !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="loader">
+        <img class="loading-image" src="~/img/loader.gif" />
+    </div>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar" data-background-color="dark">
+            <div class="sidebar-logo">
+                <!-- Logo Header -->
+                <div class="logo-header" data-background-color="dark">
+                    <a href="#" class="logo">
+                        <img src='@Url.Content("~/kaia/img/logo_cotton.png")' class="navbar-brand" height="28" />
+                    </a>
+                    <div class="nav-toggle">
+                        <button class="btn btn-toggle toggle-sidebar">
+                            <i class="gg-menu-right"></i>
+                        </button>
+                        <button class="btn btn-toggle sidenav-toggler">
+                            <i class="gg-menu-left"></i>
+                        </button>
+                    </div>
+                    <button class="topbar-toggler more">
+                        <i class="gg-more-vertical-alt"></i>
+                    </button>
+                </div>
+                <!-- End Logo Header -->
+            </div>
+            <div class="sidebar-wrapper scrollbar scrollbar-inner">
+                <div class="sidebar-content">
+                    <ul class="nav nav-secondary">
+                        <li class="nav-item">
+                            <a href='@Url.Content("~/Home/Index")'>
+                                <i class="fas fa-home"></i>
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li class="nav-section">
+                            <span class="sidebar-mini-icon">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </span>
+                            <h4 class="text-section">ADMINISTRACIÓN</h4>
+                        </li>
+                        @await Component.InvokeAsync("Menu")
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Sidebar -->
+        <div class="main-panel">
+            <div class="main-header">
+                <div class="main-header-logo">
+                </div>
+                <!-- Navbar Header -->
+                <nav class="navbar navbar-header navbar-header-transparent navbar-expand-lg border-bottom">
+                    <div class="container-fluid">
+                        @await Component.InvokeAsync("User")
+                    </div>
+                </nav>
+                <!-- End Navbar -->
+            </div>
+            <div class="container">
+                <div class="page-inner">
+                    <div>
+                        <main role="main" class="pb-3">
+                            @RenderBody()
+                        </main>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid d-flex justify-content-between">
+                    <nav class="pull-left">
+
+                    </nav>
+                    <div class="copyright">
+                        American Cotton S.A. de C.V © 2024. Todos los derechos reservados
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

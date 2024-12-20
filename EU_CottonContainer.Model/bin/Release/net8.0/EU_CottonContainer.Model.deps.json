@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EU_CottonContainer.Model/1.0.0": {
+        "runtime": {
+          "EU_CottonContainer.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EU_CottonContainer.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

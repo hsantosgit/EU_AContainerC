@@ -1,0 +1,210 @@
+﻿@model EU_CottonContainer.Model.Usuario
+@{
+    Layout = null;
+    ViewBag.Title = "Autenticación";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <meta charset="null" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store" />
+    <!--style page-->
+    <link type="text/css" href="@Url.Content("~/seo/css/styles.min.css")" rel="Stylesheet" />
+
+    <!--   Core JS Files   -->
+    <script src='@Url.Content("~/kaia/js/core/jquery-3.7.1.min.js")'></script>
+    <script src='@Url.Content("~/js/jquery.redirect.js")'></script>
+    <!-- Sweet Alert -->
+    <script src=@Url.Content("~/kaia/js/plugin/sweetalert/sweetalert.min.js")></script>
+
+    @* <script src="@Url.Content("~/seo/libs/jquery/dist/jquery.min.js")"></script>
+    <script src="@Url.Content("~/seo/libs/bootstrap/dist/js/bootstrap.bundle.min.js")"></script> *@
+
+    <script>
+
+
+        var timer2 = "1:59";
+        var interval = setInterval(function () {
+            var timer = timer2.split(':');
+            //by parsing integer, I avoid all extra string processing
+            var minutes = parseInt(timer[0], 10);
+            var seconds = parseInt(timer[1], 10);
+            --seconds;
+            minutes = (seconds < 0) ? --minutes : minutes;
+            if (minutes < 0) clearInterval(interval);
+            seconds = (seconds < 0) ? 59 : seconds;
+            seconds = (seconds < 10) ? '0' + seconds : seconds;
+            //minutes = (minutes < 10) ?  minutes : minutes;
+            $('.countdown').html(minutes + ':' + seconds);
+            timer2 = minutes + ':' + seconds;
+        }, 1000);
+
+        var countTries = 0;
+
+
+
+        $(function () {
+            $('#frmAutenticator').submit(function (e) {
+                e.preventDefault();
+                $.ajax(
+                    {
+                        url: this.action,
+                        type: this.method,
+                        data: $(this).serialize(),
+                        success: function (result) {
+                            var strRes = result;
+                            if (result == 'OK') {
+                                window.location.href = '@Url.Content("~/Home/Index")';
+                            }
+                            else if (strRes.substring(0, 2) == 'CC') {
+                                var param = strRes.substring(3, strRes.length);
+                                // var _uri = '@Url.Action("CambioContrasena", "/Seguridad")';
+                                // _uri += param;
+                                // window.location.href = _uri;
+                                 $.redirect("/Seguridad/CambioContrasena/", {usuario: param}, "POST");
+                            }
+                            else if (strRes.substring(0, 2) == 'CO') {
+                                window.location.href = '@Url.Content("~/Seguridad/Index")';
+                            }
+                            else if (strRes.substring(0, 2) == 'CA') {
+                                var parameter = strRes.substring(3, strRes.length);
+                                successMessage('Completado', 'Se a restablecido su contraseña. \n Contraseña temporal: ' + parameter + '\n Se le pedirá la actualice en su próximo ingreso.');
+                            }
+                            else
+                                warningMessage('Advertencia', result, 'inputCode');
+                        },
+                        beforeSend: function(){
+                             $('.loader').show();
+                        }
+                    });
+                //return false;
+            });
+        });
+
+
+        function popMessage(xtitle, xmessage, xicon, xclass) {
+            swal(xtitle, xmessage, {
+                icon: xicon,
+                buttons: {
+                    confirm: {
+                        className: xclass,
+                    },
+                },
+            });
+        }
+
+        function warningMessage(uxtitle, uxmessage, control) {
+            $('.loader').hide();
+            swal(uxtitle, uxmessage, {
+                icon: "warning",
+                buttons: {
+                    confirm: {
+                        className: "btn btn-warning",
+                    },
+                },
+            }).then(function () {
+                $("#" + control).val('');
+                $("#" + control).focus();
+            });
+        }
+
+        function successMessage(uxtitle, uxmessage) {
+            swal(uxtitle, uxmessage, {
+                icon: "success",
+                buttons: {
+                    confirm: {
+                        className: "btn btn-success",
+                    },
+                },
+                timer: 20000,
+            }).then(function () {
+                window.location = '@Url.Content("~/Home/Salir")';
+            });
+        }
+
+        function delayer() {
+            window.location = '@Url.Content("~/Home/Salir")';
+        }
+    </script>
+
+    <style>
+        .loading-image {
+            position: absolute;
+            top: 43%;
+            left: 48%;
+            z-index: 10;
+            width: 80px;
+            height: 80px;
+        }
+
+        .loader {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            text-align: center;
+            z-index: 10000;
+            opacity: 0.50;
+            overflow: auto;
+            background: #999;
+        }
+    </style>
+
+
+</head>
+<body onload="setTimeout('delayer()', 120000)">
+    <div id="loader" class="loader">
+        <img class="loading-image" src="~/img/loader.gif" />
+    </div>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <div style="text-align: center">
+                                    <h5>Autenticación</h5>
+                                </div>
+                                <a href="#" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src="~/seo/images/eurologo.jpeg" alt="" />
+                                </a>
+                                <form method="post" asp-action="Validate" asp-controller="Seguridad" id="frmAutenticator">
+                                    @Html.AntiForgeryToken()
+                                    <div class="mb-3" style="text-align: justify;">
+                                        @if (Model.IsTokenSMS >= 3)
+                                        {
+                                            <label>Se a enviado un correo a:</label>
+                                            <p><label>(</label>@Model.CorreoAlterno.Substring(0, 8) **********), con el código de acceso. Favor de capturarlo para continuar</p>
+                                        }
+                                        else if (Model.IsTokenMail == 1)
+                                        {
+                                            <label>Se a enviado un correo a:</label>
+                                            <p><label>(</label>@Model.Correo.Substring(0, 8) **********), con el código de acceso. Favor de capturarlo para continuar</p>
+                                        }
+
+                                    </div>
+                                    <div class="mb-3">
+                                        Tiempo de Espera: <span class="countdown"></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Código</label>
+                                        <input id="inputCode" type="text" class="form-control" required asp-for="TokenValidate" maxlength="10" />
+                                        <input type="hidden" id="uxdat" asp-for="userName" />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4">Validar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

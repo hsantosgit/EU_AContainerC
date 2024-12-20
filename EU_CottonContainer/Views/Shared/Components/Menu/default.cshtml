@@ -1,0 +1,35 @@
+﻿@using EU_CottonContainer.Model
+@model List<Menu>
+
+@foreach (Menu _menu in Model.FindAll(x => x.idPadre == 0))
+{
+    if (_menu.idPadre == 0)
+    {
+        if (Model.FindAll(x => x.idPadre == _menu.idMenu && x.isTitle == 0).Count > 0)
+        {
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#@_menu.Nombre">
+                    <i class="@_menu.Icon"></i>
+                    <p>@_menu.Nombre</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="@_menu.Nombre">
+                    <ul class="nav nav-collapse">
+                        @foreach (Menu _hijo in Model.FindAll(x => x.idPadre == _menu.idMenu && x.isTitle == 0))
+                        {
+                            <li class="option">
+                                <a href='@Url.Content(@_hijo.Url)'>
+                                    <span class="sub-item">@_hijo.Nombre</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </li>
+        }
+        else
+        {
+
+        }
+    }
+}

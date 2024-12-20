@@ -1,0 +1,119 @@
+﻿@using EU_CottonContainer.Model
+@model List<Rol>
+@{
+    Layout = "_Layout";
+}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+<style>
+    .minWidth1 {
+        width: 50px;
+    }
+
+    .vertical-center {
+        text-align: right;
+    }
+</style>
+<script>
+    $(document).on('click', 'input[type="checkbox"]', function() {
+        $('input[type="checkbox"]').not(this).prop('checked', false);
+    });
+
+    function EditOptions(idRol)
+    {
+        var parameter = "?_iRol=" + idRol;
+        $('#partialZone').load("/Rol/PerfilRolPartial" + parameter);
+
+    }
+
+    function EditRol(idRol) {
+
+        // var parameter = "?_idRol=" + idRol;
+        // var _uri = '@Url.Action("EditRol", "/Rol")';
+        // _uri += parameter;
+        // window.location.href = _uri;
+        $.redirect("EditRol", {_idRol: idRol}, "POST");
+    }
+
+</script>
+
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Rol</a>
+        </li>
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex align-items-center">
+                    <h5>Rol</h5>
+                    <button class="btn btn-black btn-round ms-auto" onclick="location.href='@Url.Content("~/Rol/AddRol")';">
+                        <i class="fa fa-plus"></i>
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="tbPerfil" class="display table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th style="display:none;">idRol</th>
+                                <th>Nombre</th>
+                                <th>Status</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Rol _rol in Model)
+                            {
+                                <tr>
+                                    <td style="display:none;">
+                                        @_rol.idRol
+                                    </td>
+                                    <td>
+                                        @_rol.Nombre
+                                    </td>
+                                    <td>
+                                        @_rol.Status
+                                    </td>
+                                    <td class="minWidth1">
+                                        <div class="form-button-action">
+                                            <button type="button" id="btnUnlock" title="Editar Rol" class="btn btn - lg" onclick="EditRol('@_rol.idRol');">
+                                                <i class="fa fa-pen-square"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="minWidth1">
+                                        <input type="checkbox" style="cursor:pointer" onclick="EditOptions('@_rol.idRol');" />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="partialZone" class="col">
+    </div>
+</div>

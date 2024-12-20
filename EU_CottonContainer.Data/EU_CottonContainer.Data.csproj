@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BaseRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EU_CottonContainer.Model\EU_CottonContainer.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EU_CottonSecurity">
+      <HintPath>..\EU_CottonContainer\Resources\EU_CottonSecurity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

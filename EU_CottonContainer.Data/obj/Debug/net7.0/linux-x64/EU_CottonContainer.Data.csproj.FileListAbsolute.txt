@@ -1,0 +1,17 @@
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Data.deps.json
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Data.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Data.pdb
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Model.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Security.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Model.pdb
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Security.pdb
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.csproj.AssemblyReference.cache
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.AssemblyInfoInputs.cache
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.AssemblyInfo.cs
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.csproj.CoreCompileInputs.cache
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_Cotto.694F5C70.Up2Date
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\refint\EU_CottonContainer.Data.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Data.pdb
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Data\obj\Debug\net7.0\linux-x64\ref\EU_CottonContainer.Data.dll

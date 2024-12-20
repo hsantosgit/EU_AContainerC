@@ -1,0 +1,3649 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\EU_CottonContainer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EU_CottonContainer.6zedeo432k.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\2bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\2bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\bootstrap-multiselect.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-multiselect.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\bootstrap-multiselect.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-multiselect.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\euro.css",
+      "PackagePath": "staticwebassets\\css\\euro.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\img\\eurologo.jpeg",
+      "PackagePath": "staticwebassets\\img\\eurologo.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\img\\loader.gif"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\js\\jquery.redirect.js",
+      "PackagePath": "staticwebassets\\js\\jquery.redirect.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\js\\jstree\\jstree.min.js",
+      "PackagePath": "staticwebassets\\js\\jstree\\jstree.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\js\\security.js",
+      "PackagePath": "staticwebassets\\js\\security.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\bootstrap.min.vo.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\bootstrap.min.vo.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\demo.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\demo.css.map",
+      "PackagePath": "staticwebassets\\kaia\\css\\demo.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\fonts.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\fonts.min.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\fonts.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\kaiadmin.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\kaiadmin.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\kaiadmin.css.map",
+      "PackagePath": "staticwebassets\\kaia\\css\\kaiadmin.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\kaiadmin.min.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\kaiadmin.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\plugins.css.map",
+      "PackagePath": "staticwebassets\\kaia\\css\\plugins.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\css\\plugins.min.css",
+      "PackagePath": "staticwebassets\\kaia\\css\\plugins.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\simple-line-icons\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\summernote\\summernote.eot",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\summernote\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\summernote\\summernote.ttf",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\summernote\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\summernote\\summernote.woff",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\summernote\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\fonts\\summernote\\summernote.woff2",
+      "PackagePath": "staticwebassets\\kaia\\fonts\\summernote\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\ECL.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\ECL.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\arashmil.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\arashmil.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\bg-404.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\bg-404.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\blogpost.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\blogpost.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\chadengle.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\chadengle.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example1-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example1.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example1.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example10-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example10-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example10.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example10.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example11-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example11-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example11.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example11.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example12-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example12-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example12.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example12.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example2-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example2.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example2.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example3-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example3.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example3.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example4-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example4.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example4.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example5-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example5-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example5.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example5.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example6-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example6-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example6.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example6.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example7-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example7-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example7.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example7.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example8-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example8-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example8.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example8.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example9-300x300.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example9-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\example9.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\example9.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\logo.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\logo.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\logo1.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\logo1.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\logo2.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\logo2.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\logoinvoice.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\logoinvoice.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product1.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product1.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product10.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product10.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product11.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product11.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product12.jpeg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product12.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product2.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product3.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product4.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product4.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product5.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product5.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product6.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product6.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product7.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product7.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\examples\\product8.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\examples\\product8.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ad.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ad.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ae.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ae.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\af.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\af.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ag.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ag.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ai.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ai.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\al.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\al.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\am.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\am.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\an.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\an.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ao.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ao.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ar.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ar.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\as.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\as.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\at.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\at.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\au.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\au.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\aw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\aw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ax.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ax.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\az.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\az.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ba.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ba.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bb.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bb.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bd.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bd.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\be.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\be.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bh.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bh.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bi.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bi.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bj.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bj.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bo.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bo.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\br.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\br.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bs.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bs.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bv.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bv.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\by.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\by.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\bz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\bz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ca.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ca.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\catalonia.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\catalonia.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cd.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cd.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ch.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ch.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ci.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ci.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ck.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ck.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cl.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cl.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\co.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\co.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cs.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cs.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cv.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cv.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cx.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cx.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cy.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cy.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\cz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\cz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\de.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\de.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\dj.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\dj.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\dk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\dk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\dm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\dm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\do.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\do.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\dz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\dz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ec.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ec.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ee.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ee.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\eg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\eg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\eh.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\eh.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\england.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\england.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\er.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\er.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\es.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\es.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\et.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\et.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\europeanunion.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\europeanunion.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fam.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fam.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fi.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fi.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fj.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fj.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fo.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fo.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\fr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\fr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ga.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ga.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gb.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gb.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gd.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gd.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ge.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ge.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gh.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gh.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gi.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gi.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gl.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gl.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gp.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gp.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gq.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gq.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gs.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gs.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\gy.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\gy.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\hk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\hk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\hm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\hm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\hn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\hn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\hr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\hr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ht.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ht.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\hu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\hu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\id.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\id.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ie.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ie.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\il.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\il.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\in.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\in.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\io.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\io.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\iq.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\iq.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ir.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ir.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\is.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\is.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\it.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\it.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\jm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\jm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\jo.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\jo.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\jp.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\jp.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ke.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ke.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kh.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kh.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ki.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ki.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\km.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\km.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kp.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kp.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ky.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ky.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\kz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\kz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\la.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\la.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lb.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lb.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\li.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\li.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ls.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ls.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\lv.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\lv.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ly.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ly.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ma.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ma.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\md.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\md.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\me.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\me.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mh.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mh.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ml.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ml.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mo.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mo.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mp.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mp.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mq.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mq.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ms.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ms.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mv.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mv.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mx.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mx.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\my.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\my.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\mz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\mz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\na.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\na.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\nc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\nc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ne.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ne.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\nf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\nf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ng.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ng.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ni.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ni.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\nl.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\nl.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\no.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\no.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\np.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\np.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\nr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\nr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\nu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\nu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\nz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\nz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\om.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\om.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pa.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pa.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pe.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pe.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ph.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ph.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pl.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pl.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ps.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ps.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\pw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\pw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\py.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\py.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\qa.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\qa.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\re.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\re.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\readme.txt",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\readme.txt"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ro.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ro.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\rs.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\rs.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\rw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\rw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sa.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sa.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sb.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sb.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\scotland.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\scotland.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sd.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sd.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\se.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\se.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sh.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sh.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\si.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\si.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sj.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sj.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sl.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sl.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\so.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\so.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\st.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\st.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sv.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sv.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sy.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sy.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\sz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\sz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\td.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\td.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\th.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\th.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tj.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tj.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tk.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tk.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tl.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tl.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\to.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\to.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tr.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tr.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tv.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tv.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\tz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\tz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ua.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ua.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ug.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ug.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\um.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\um.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\us.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\us.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\uy.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\uy.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\uz.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\uz.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\va.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\va.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\vc.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\vc.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ve.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ve.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\vg.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\vg.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\vi.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\vi.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\vn.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\vn.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\vu.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\vu.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\wales.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\wales.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\wf.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\wf.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ws.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ws.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\ye.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\ye.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\yt.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\yt.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\za.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\za.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\zm.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\zm.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\flags\\zw.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\flags\\zw.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\img-shadow.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\img-shadow.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\jm_denis.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\jm_denis.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo1.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo1.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo2.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo2.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo3.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo3.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo4.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo4.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo5.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo5.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo6.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo6.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo7.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo7.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo8.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo8.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\demo9.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\demo9.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\favicon.ico",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\favicon.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\favicon.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\favicon.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\icon.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\icon.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\icon.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\icon.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\logo_dark.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\logo_dark.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\logo_dark.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\logo_documentation.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\logo_documentation.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\logo_light.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\logo_light.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\kaiadmin\\logo_light.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\kaiadmin\\logo_light.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\logo_cotton.png",
+      "PackagePath": "staticwebassets\\kaia\\img\\logo_cotton.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\logoico.ico",
+      "PackagePath": "staticwebassets\\kaia\\img\\logoico.ico"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\logoproduct.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\logoproduct.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\logoproduct2.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\logoproduct2.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\logoproduct3.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\logoproduct3.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\mlane.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\mlane.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\profile2.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\sauro.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\sauro.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\talha.jpg",
+      "PackagePath": "staticwebassets\\kaia\\img\\talha.jpg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_Hello_qnas.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_Hello_qnas.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_Taken_if77.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_Taken_if77.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_blank_canvas_3rbb.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_blank_canvas_3rbb.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_creative_team_r90h.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_creative_team_r90h.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_empty_xct9.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_empty_xct9.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_no_data_qbuo.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_no_data_qbuo.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_not_found_60pq.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_not_found_60pq.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_page_not_found_su7k.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_page_not_found_su7k.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_sign_in_e6hj.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_sign_in_e6hj.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_tabs_jf82.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_tabs_jf82.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_update_uxn2.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_update_uxn2.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\undraw\\undraw_upgrade_06a0.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\undraw\\undraw_upgrade_06a0.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\img\\visa.svg",
+      "PackagePath": "staticwebassets\\kaia\\img\\visa.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\core\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\core\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\demo.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\kaiadmin.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\kaiadmin.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\kaiadmin.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\kaiadmin.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\jquery.sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\jsvectormap\\jsvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\jsvectormap\\world.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\jsvectormap\\world.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\list.js\\list.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\owl-carousel\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\owl-carousel\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\owl-carousel\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\owl-carousel\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\sortable\\sortable.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\sortable\\sortable.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\sticky-sidebar\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\plugin\\webfont\\webfont.min.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\plugin\\webfont\\webfont.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\setting-demo.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\setting-demo.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\kaia\\js\\setting-demo2.js",
+      "PackagePath": "staticwebassets\\kaia\\js\\setting-demo2.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
+      "PackagePath": "staticwebassets\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg",
+      "PackagePath": "staticwebassets\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf",
+      "PackagePath": "staticwebassets\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff",
+      "PackagePath": "staticwebassets\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2",
+      "PackagePath": "staticwebassets\\seo\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\icons\\tabler-icons\\tabler-icons.css",
+      "PackagePath": "staticwebassets\\seo\\css\\icons\\tabler-icons\\tabler-icons.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\styles.css",
+      "PackagePath": "staticwebassets\\seo\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\css\\styles.min.css",
+      "PackagePath": "staticwebassets\\seo\\css\\styles.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\images\\eurologo.jpeg",
+      "PackagePath": "staticwebassets\\seo\\images\\eurologo.jpeg"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\README.md"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\alert.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\alert.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\base-component.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\base-component.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\base-component.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\base-component.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\button.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\button.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\button.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\carousel.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\collapse.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\data.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\data.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\data.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\modal.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\modal.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\offcanvas.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\offcanvas.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\offcanvas.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\popover.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\popover.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\tab.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\tab.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\toast.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\toast.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\config.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\config.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\config.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\index.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\index.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\index.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\index.esm.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\index.esm.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\index.umd.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\index.umd.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\alert.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\alert.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\base-component.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\button.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\button.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\carousel.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\collapse.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\modal.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\popover.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\tab.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\tab.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\toast.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\toast.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\README.md",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\README.md"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\browsers.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\browsers.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\helpers\\fixture.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\helpers\\fixture.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\integration\\bundle-modularity.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\integration\\bundle-modularity.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\integration\\bundle.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\integration\\bundle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\integration\\index.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\integration\\index.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle-modularity.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle-modularity.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\karma.conf.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\karma.conf.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\alert.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\alert.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\base-component.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\base-component.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\button.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\button.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\carousel.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\carousel.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\collapse.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\collapse.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\data.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\data.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\event-handler.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\event-handler.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\manipulator.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\manipulator.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\selector-engine.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\dom\\selector-engine.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\dropdown.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\dropdown.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\jquery.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\jquery.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\modal.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\modal.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\offcanvas.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\offcanvas.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\popover.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\popover.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\scrollspy.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\scrollspy.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\tab.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\tab.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\toast.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\toast.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\tooltip.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\tooltip.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\backdrop.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\backdrop.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\component-functions.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\component-functions.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\config.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\config.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\focustrap.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\focustrap.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\index.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\index.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\sanitizer.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\sanitizer.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\scrollbar.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\scrollbar.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\swipe.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\swipe.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\template-factory.spec.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\unit\\util\\template-factory.spec.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\alert.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\alert.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\button.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\button.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\carousel.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\carousel.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\collapse.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\collapse.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\dropdown.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\dropdown.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\modal.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\modal.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\popover.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\popover.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\scrollspy.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\scrollspy.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\tab.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\tab.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\toast.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\toast.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\js\\tests\\visual\\tooltip.html",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\js\\tests\\visual\\tooltip.html"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\package.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\jasmine.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\seo\\libs\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\README.md"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\bower.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\core.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\core.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\external\\sizzle\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\external\\sizzle\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\external\\sizzle\\dist\\sizzle.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\external\\sizzle\\dist\\sizzle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\package.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\package.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\parseXML.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\parseXML.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\var\\location.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\var\\location.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\DOMEval.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\DOMEval.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\camelCase.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\camelCase.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\isAttached.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\isAttached.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\nodeName.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\nodeName.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\ready-no-deferred.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\ready-no-deferred.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\readyException.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\readyException.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\stripAndCollapse.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\stripAndCollapse.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\support.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\support.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\toType.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\toType.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\adjustCSS.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\adjustCSS.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\finalPropName.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\finalPropName.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\showHide.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\showHide.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\var\\getStyles.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\var\\getStyles.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\var\\rboxStyle.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\var\\rboxStyle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\css\\var\\swap.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\css\\var\\swap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\data\\Data.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\data\\Data.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\data\\var\\acceptData.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\data\\var\\acceptData.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\data\\var\\dataPriv.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\data\\var\\dataPriv.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\data\\var\\dataUser.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\data\\var\\dataUser.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\deferred\\exceptionHook.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\deferred\\exceptionHook.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\event\\ajax.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\event\\ajax.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\event\\alias.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\event\\alias.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\event\\focusin.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\event\\focusin.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\event\\support.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\event\\support.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\event\\trigger.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\event\\trigger.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\buildFragment.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\buildFragment.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\getAll.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\getAll.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\setGlobalEval.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\setGlobalEval.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\var\\rtagName.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\var\\rtagName.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\manipulation\\wrapMap.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\manipulation\\wrapMap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\selector-native.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\selector-native.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\selector-sizzle.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\selector-sizzle.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\traversing\\var\\dir.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\traversing\\var\\dir.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\traversing\\var\\siblings.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\traversing\\var\\siblings.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\ObjectFunctionString.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\ObjectFunctionString.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\arr.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\arr.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\concat.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\concat.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\document.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\document.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\documentElement.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\documentElement.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\fnToString.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\fnToString.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\getProto.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\getProto.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\isFunction.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\isFunction.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\isWindow.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\isWindow.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\rcssNum.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\rcssNum.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\rnothtmlwhite.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\rnothtmlwhite.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\jquery\\src\\wrap.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\LICENSE",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\README.md",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\README.md"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar-core.esm.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar-core.esm.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar-core.esm.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar-core.esm.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.d.ts",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.d.ts"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.esm.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.esm.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.esm.js.map",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.esm.js.map"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.min.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\dist\\simplebar.umd.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\dist\\simplebar.umd.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\package.json",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\package.json"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\src\\helpers.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\src\\helpers.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\src\\index.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\src\\index.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\src\\scrollbar-width.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\src\\scrollbar-width.js"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\src\\simplebar.css",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\src\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Desarrollo\\EU_CottonContainer\\EU_CottonContainer\\wwwroot\\seo\\libs\\simplebar\\src\\simplebar.js",
+      "PackagePath": "staticwebassets\\seo\\libs\\simplebar\\src\\simplebar.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.EU_CottonContainer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.EU_CottonContainer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.EU_CottonContainer.props",
+      "PackagePath": "build\\EU_CottonContainer.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EU_CottonContainer.props",
+      "PackagePath": "buildMultiTargeting\\EU_CottonContainer.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.EU_CottonContainer.props",
+      "PackagePath": "buildTransitive\\EU_CottonContainer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

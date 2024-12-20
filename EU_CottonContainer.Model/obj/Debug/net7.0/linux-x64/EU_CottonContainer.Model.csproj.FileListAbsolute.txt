@@ -1,0 +1,11 @@
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Model.deps.json
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Model.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\bin\Debug\net7.0\linux-x64\EU_CottonContainer.Model.pdb
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Model.AssemblyInfoInputs.cache
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Model.AssemblyInfo.cs
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Model.csproj.CoreCompileInputs.cache
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Model.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\refint\EU_CottonContainer.Model.dll
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\EU_CottonContainer.Model.pdb
+C:\Desarrollo\EU_CottonContainer\EU_CottonContainer.Model\obj\Debug\net7.0\linux-x64\ref\EU_CottonContainer.Model.dll

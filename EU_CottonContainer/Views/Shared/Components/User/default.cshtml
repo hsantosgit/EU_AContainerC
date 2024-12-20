@@ -1,0 +1,41 @@
+﻿@using EU_CottonContainer.Model
+@model Usuario
+
+<ul class="navbar-nav topbar-nav ms-md-auto align-items-center">
+    <li class="nav-item topbar-icon dropdown hidden-caret" style="padding:5px !important;">
+        <span class="profile-username">
+            <span class="op-7">Hi,</span>
+            <span class="fw-bold"> @Model.Nombre</span>
+        </span>
+    </li>
+    <li class="nav-item topbar-icon dropdown hidden-caret">
+        <a class="dropdown-toggle profile-pic" data-bs-toggle="dropdown" href="#" aria-expanded="false">
+            <div class="avatar">
+                <span class="avatar-title rounded-circle border border-white">@Model.Nombre.Substring(0, 1)@Model.apPaterno.Substring(0, 1)</span>
+            </div>
+        </a>
+        <ul class="dropdown-menu dropdown-user animated fadeIn">
+            <li>
+                <div class="user-box">
+                    <div class="avatar-lg">
+                        <span class="avatar-title border border-white">@Model.Nombre.Substring(0, 1)@Model.apPaterno.Substring(0, 1)</span>
+                    </div>
+                    <div class="u-text">
+                        <h4>
+                            <label class="fw-bold">@Model.userName</label>
+                        </h4>
+                        <p class="text-muted">
+                            <label>@Model.Rol</label>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href='@Url.Content("~/Seguridad/SolicitaCambio")'>Cambiar Contraseña </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href='@Url.Content("~/Home/Salir")'>Cerrar Sesión</a>
+            </li>
+        </ul>
+    </li>
+</ul>

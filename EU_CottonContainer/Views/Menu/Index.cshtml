@@ -1,0 +1,185 @@
+﻿@using EU_CottonContainer.Model
+@model List<Menu>
+@{
+    Layout = "_Layout";
+}
+
+<script>
+    function AddSubMenu(idMenu) {
+
+        // var parameter = "?_idMenu=" + idMenu;
+        // var _uri = '@Url.Action("AddSubMenu", "/Menu")';
+        // _uri += parameter;
+        // window.location.href = _uri;
+
+        $.redirect("AddSubMenu", {_idMenu: idMenu}, "POST");
+    }
+
+    function EditMenu(idMenu) {
+
+        // var parameter = "?_idMenu=" + idMenu;
+        // var _uri = '@Url.Action("EditMenu", "/Menu")';
+        // _uri += parameter;
+        // window.location.href = _uri;
+
+        $.redirect("EditMenu", {_idMenu: idMenu}, "POST");
+    }
+
+    function EditSubMenu(idMenu) {
+
+        // var parameter = "?_idMenu=" + idMenu;
+        // var _uri = '@Url.Action("EditSubMenu", "/Menu")';
+        // _uri += parameter;
+        // window.location.href = _uri;
+
+        $.redirect("EditSubMenu", {_idMenu: idMenu}, "POST");
+    }
+</script>
+
+<style>
+    .minWidth1 {
+        width: 70px;
+    }
+
+    .Width2 {
+        width: 130px;
+    }
+</style>
+
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Menú</a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex align-items-center">
+                    <h5>Menú</h5>
+                    <button class="btn btn-black btn-round ms-auto" onclick="location.href='@Url.Content("~/Menu/AddMenu")';">
+                        <i class="fa fa-plus"></i>
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="tbMenu" class="table table-responsive table-hover no-footer">
+                        <thead>
+                            <tr>
+                                <th style="display:none;">idMenu</th>
+                                <th>Nombre</th>
+                                <th>Icono</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Menu user in Model)
+                            {
+                                if (user.idPadre == 0)
+                                {
+                                    <tr>
+                                        <td style="display:none;">
+                                            @user.idMenu
+                                        </td>
+                                        <td class="Width2">
+                                            @user.Nombre
+                                        </td>
+                                        <td>
+                                            @user.Icon
+                                        </td>
+                                        <td class="minWidth1">
+                                            <div class="form-button-action">
+                                                <button type="button" id="btnEditM" title="Editar Menú" class="btn btn-link btn - lg" onclick="EditMenu(@user.idMenu)">
+                                                    <i class="fas fa-pen-square"></i>
+                                                </button>
+                                                <button type="button" id="btnAddM" title="Agregar SubMenú" class="btn btn-link btn - lg" onclick="AddSubMenu(@user.idMenu);">
+                                                    <i class="fas fa-plus-square"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                                else if (user.Orden == 1 && user.idPadre > 0)
+                                {
+                                    <tr>
+                                        <td></td>
+                                        <td colspan="999">
+                                            <div class="table-responsive">
+                                                @if (user.Orden == 1 && user.idPadre > 0)
+                                                {
+                                                    <table id="tbMenu_Hijo" class="table table-responsive table-hover no-footer">
+                                                        <thead>
+                                                            <tr>
+                                                                <th style="display:none;">idMenu</th>
+                                                                <th>
+                                                                    SubMenu - (
+                                                                    @foreach (Menu padre in Model.FindAll(x => x.idMenu == user.idPadre))
+                                                                    {
+                                                                        @padre.Nombre
+                                                                    }
+                                                                    )
+                                                                </th>
+                                                                <th>Url</th>
+                                                                <th>Orden</th>
+                                                                <th></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach (Menu menu in Model.FindAll(x => x.idPadre == user.idPadre))
+                                                            {
+                                                                <tr>
+                                                                    <td style="display:none;">
+                                                                        @menu.idMenu
+                                                                    </td>
+                                                                    <td>
+                                                                        @menu.Nombre
+                                                                    </td>
+                                                                    <td>
+                                                                        @menu.Url
+                                                                    </td>
+                                                                    <td>
+                                                                        @menu.Orden
+                                                                    </td>
+                                                                    <td class="minWidth1">
+                                                                        <div class="form-button-action">
+                                                                            <button type="button" id="btnUnlock" title="Editar SubMenú" class="btn btn-link btn - lg" onclick="EditSubMenu(@menu.idMenu)">
+                                                                                <i class="fa fa-pen-square"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            }
+                                                        </tbody>
+                                                    </table>
+                                                }
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

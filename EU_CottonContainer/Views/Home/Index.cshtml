@@ -1,0 +1,35 @@
+﻿@using EU_CottonContainer.Model
+
+
+<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
+    <div>
+        <h6 class="op-7 mb-2">Panel de Aplicaciones</h6>
+    </div>
+    <div class="ms-md-auto py-2 py-md-0">
+    </div>
+</div>
+<div class="row">
+    @foreach (Aplicacion _app in @ViewBag.Aplicacion)
+    {
+        <div class="col-sm-6 col-md-3">
+            <div class="card card-stats card-round">
+                <div class="card-body">
+                    @* <div class="row align-items-center" onclick="location.href='@_app.Url'" style="cursor:pointer;"> *@
+                    <div class="row align-items-center" style="cursor:pointer;">
+                        <div class="col-icon">
+                            <div class="icon-big text-center icon-secondary bubble-shadow-small" >
+                                <i class="@_app.icono"></i>
+                            </div>
+                        </div>
+                        <div class="col col-stats ms-3 ms-sm-0" >
+                            <div class="numbers">
+                                <h4 class="card-title">@_app.Nombre</h4>
+                                <p class="card-category">@_app.Url</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,419 @@
+﻿@using EU_CottonContainer.Model
+@model Usuario
+@{
+    Layout = "_Layout";
+}
+
+<style>
+    .vertical-center {
+        text-align: right;
+    }
+
+    .chkChoice input {
+        margin-left: -20px;
+    }
+
+    .chkChoice td {
+        padding-left: 20px;
+    }
+
+    .checkbox .btn, .checkbox-inline .btn {
+        padding-left: 2em;
+        min-width: 8em;
+    }
+
+    .checkbox label, .checkbox-inline label {
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    .checkbox input[type="checkbox"] {
+        float: none;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('#txtNombre').focus();
+
+        $(".letras").keypress(function (key) {
+            // window.console.log(key.charCode)
+            if ((key.charCode < 97 || key.charCode > 122)//letras mayusculas
+                && (key.charCode < 65 || key.charCode > 90) //letras minusculas
+                && (key.charCode != 45) //retroceso
+                && (key.charCode != 241) //ñ
+                && (key.charCode != 209) //Ñ
+                && (key.charCode != 32) //espacio
+                && (key.charCode != 225) //á
+                && (key.charCode != 233) //é
+                && (key.charCode != 237) //í
+                && (key.charCode != 243) //ó
+                && (key.charCode != 250) //ú
+                && (key.charCode != 193) //Á
+                && (key.charCode != 201) //É
+                && (key.charCode != 205) //Í
+                && (key.charCode != 211) //Ó
+                && (key.charCode != 218) //Ú
+
+            )
+                return false;
+        });
+
+        $(".numeros").keypress(function (key) {
+            // window.console.log(key.charCode)
+            if ((key.charCode < 48 || key.charCode > 57)//letras mayusculas
+            )
+                return false;
+        });
+    });
+
+    $(function () {
+        $('#frmEditUser').submit(function () {
+            $.ajax(
+                {
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+
+                        var strRes = result;
+                        if (result == 'OK') {
+                            successMessageRedirect('Completado.', 'Usuario Actualizado con éxito.');
+                        }
+                        else {
+                            warningMessage('Advertencia', result);
+                        }
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+            return false;
+        });
+    });
+
+    var emailtrue = 0;
+    var emailalternotrue = 0;
+    function valEmail(idUsuario) {
+        $.ajax({
+            url: '@Url.Action("ValidateEmailEdit", "/Usuario")',
+            type: "POST",
+            data: { Email: $('#txtCorreo').val(), idUsuario: idUsuario },
+            success: function (result) {
+                var strRes = result;
+                if (result == 'OK') {
+                    $('.loader').hide();
+                    swal({
+                        title: "Código de Validación",
+                        html: '<br><input class="form-control" placeholder="Ingrese código envíado por correo" id="mailToken">',
+                        content: {
+                            element: "input",
+                            attributes: {
+                                placeholder: "Ingrese código envíado por correo",
+                                type: "text",
+                                id: "mailToken",
+                                className: "form-control",
+                                },
+                            },
+                        buttons: {
+                            confirm: {
+                                text: "Confirmar",
+                                className: "btn btn-black",
+                            },
+                            cancel: {
+                                text: "Cancelar",
+                                visible: true,
+                                className: "btn btn-secondary",
+                            },
+                                },
+                        }).then((Delete) => {
+                            if (Delete) {
+                                $.ajax(
+                                {
+                                    url: '@Url.Action("validaMailToken", "/Usuario")',
+                                    type: "POST",
+                                    data: { Token: $('#mailToken').val() },
+                                    success: function (result) {
+                                        var strRes = result;
+                                        if (result == 'OK') {
+                                            $('.loader').hide();
+                                            document.getElementById('lblCorreo').innerHTML = "Correo validado con éxito!.";
+                                            document.getElementById('lblCorreo').className = "lblclass";
+                                            $("#txtCorreoAlt").focus();
+                                            emailtrue = 0;
+                                        }
+                                        else
+                                        {
+                                            warningMessage('Advertencia', result, 'txtCorreo');
+                                        }
+                                    },
+                                    beforeSend: function () {
+                                        $('.loader').show();
+                                    }
+                                });
+                            }
+                            else {
+                                $("#txtCorreo").focus();
+                                swal.close();
+                            }
+                        });
+                }
+                else if (result == '') {
+                    warningMessage('Advertencia', 'Capture correo de usuario', 'txtCorreo');
+                    emailtrue = 1;
+                }
+                else if (result == 'correo actual')
+                {
+                    $('.loader').hide();
+                    document.getElementById('lblCorreo').innerHTML = "Correo validado con éxito!.";
+                    document.getElementById('lblCorreo').className = "lblclass";
+                    $("#txtCorreoAlt").focus();
+                    emailtrue = 0;
+                }
+                else {
+                    warningMessage('Advertencia', result, 'txtCorreo');
+                    emailtrue = 1;
+                }
+            },
+            beforeSend: function () {
+                $('.loader').show();
+            }
+        });
+    }
+
+    function valEmailAlt(idUsuario) {
+        if (emailtrue == 0) {
+            emailalternotrue = 1;
+            $.ajax(
+                {
+                    url: '@Url.Action("ValidateEmailAltEdit", "/Usuario")',
+                    type: "POST",
+                    data: { Email: $('#txtCorreoAlt').val(), idUsuario: idUsuario },
+                    success: function (result) {
+                        var strRes = result;
+                        if (result == 'OK') {
+                            $('.loader').hide();
+                            emailalternotrue = 0;
+                        }
+                        else if (result == '') {
+                            warningMessage('Advertencia', 'Capture correo alternativo.', 'txtCorreoAlt');
+                        }
+                        else if (result == 'correo actual') {
+                           $('.loader').hide();
+                            emailalternotrue = 0;
+                        }
+                        else warningMessage('Advertencia', result, 'txtCorreoAlt');
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+        }
+    }
+
+    function valTel(idUsuario) {
+        if (emailalternotrue == 0) {
+            if(idUsuario != null)
+            {
+            $.ajax(
+                {
+                    url: '@Url.Action("ValidatePhoneEdit", "/Usuario")',
+                    type: "POST",
+                    data: { Phone: $('#txtTelefono').val(), idUsuario: idUsuario },
+                    success: function (result) {
+                        var strRes = result;
+                        if (result == 'OK') {
+                            $('.loader').hide();
+                        }
+                        else if (result == '') {
+                            warningMessage('Advertencia', 'Capture teléfono de usuario', 'txtTelefono');
+                        }
+                        else warningMessage('Advertencia', result, 'txtTelefono');
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+            }
+        }
+    }
+
+
+    function mayus(e) {
+        e.value = e.value.toUpperCase();
+    }
+
+    function successMessageRedirect(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-success",
+                },
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location.href = '@Url.Content("~/Usuario/Index")';
+        });
+    }
+
+    function warningMessage(uxtitle, uxmessage, control) {
+        $('.loader').hide();
+        swal(uxtitle, uxmessage, {
+            icon: "warning",
+            buttons: {
+                confirm: {
+                    className: "btn btn-warning",
+                },
+            },
+        }).then(function () {
+            $("#" + control).focus();
+        });
+    }
+
+
+
+</script>
+
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Usuarios</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Editar Usuario</a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <form method="post" asp-action="SaveEditUser" asp-controller="Usuario" id="frmEditUser">
+                @Html.AntiForgeryToken()
+                <div class="card-header">
+                    <div class="d-flex align-items-center">
+                        <h5>Editar Usuario</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control letras" required asp-for="Nombre" id="txtNombre" onkeyup="mayus(this);" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Apellido Paterno</label>
+                                <input type="text" class="form-control letras" required asp-for="apPaterno" id="txtPaterno" onkeyup="mayus(this);" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Apellido Materno</label>
+                                <input type="text" class="form-control letras" required asp-for="apMaterno" id="txtMaterno" onkeyup="mayus(this);" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Usuario</label>
+                                <input type="text" id="txtUser" class="form-control" required asp-for="userName" disabled="disabled" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label id="lblCorreo">Correo</label>
+                                <input type="text" class="form-control" required asp-for="Correo" id="txtCorreo" onkeyup="mayus(this);" onblur="valEmail(@Model.idUsuario);" maxlength="100" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Correo Alternativo</label>
+                                <input type="text" class="form-control" required asp-for="CorreoAlterno" id="txtCorreoAlt" onkeyup="mayus(this);" onblur="valEmailAlt(@Model.idUsuario);" maxlength="100" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Teléfono</label>
+                                <input type="number" class="form-control numeros" required asp-for="Telefono" id="txtTelefono" onblur="valTel(@Model.idUsuario);" maxlength="10" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Rol</label>
+                                <select class="form-select" asp-for="idRol" asp-items="@(new SelectList(@ViewBag.stores, "idRol", "Nombre"))">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Planta</label>
+                                <select class="form-select" asp-for="idPlanta" asp-items="@(new SelectList(@ViewBag.planta, "idPlanta", "Nombre"))">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group checkbox">
+                                <label>Aplicaciones</label>
+                                <div class="form-control">
+                                    @foreach (var checkbox in ViewBag.Aplicacion)
+                                    {
+                                        <div>
+                                            <input type="checkbox" value="@checkbox.idAplicacion" name="AppIds" id="@checkbox.idAplicacion" checked="@checkbox.isChecked" />
+                                            <label class="form-check-label" for="@checkbox.idAplicacion">
+                                                @checkbox.Nombre
+                                            </label>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Status</label>
+                                @if (Model.Status == 4)
+                                {
+                                    <select class="form-select" asp-for="Status" asp-items="@(new SelectList(@ViewBag.Status, "Status", "Abreviatura"))" disabled="disabled">
+                                    </select>
+                                }
+                                else
+                                {
+                                    <select class="form-select" asp-for="Status" asp-items="@(new SelectList(@ViewBag.Status, "Status", "Abreviatura"))">
+                                    </select>
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action vertical-center">
+                    <button type="submit" class="btn btn-black">Actualizar</button>
+                    <button type="submit" class="btn btn-secondary" onclick="location.href='@Url.Content("~/Usuario/Index")';">Cancelar</button>
+                    <input type="hidden" asp-for="Status" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

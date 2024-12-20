@@ -1,0 +1,184 @@
+﻿@using EU_CottonContainer.Model
+@model Menu
+@{
+    Layout = "_Layout";
+}
+
+<script>
+    $(document).ready(function()
+    {
+        $('#txtNombre').focus();
+    });
+
+    $(function () {
+        $('#frmAddSubMenu').submit(function () {
+            $.ajax(
+                {
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+
+                        var strRes = result;
+                        if (result == 'OK') {
+                            successMessageRedirect('Completado.', 'SubMenú Agregado con éxito.');
+                        }
+                        else {
+                            warningMessage('Advertencia', result);
+                        }
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+            return false;
+        });
+    });
+
+    function successMessageRedirect(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location.href = '@Url.Content("~/Menu/Index")';
+        });
+    }
+
+    function warningMessage(uxtitle, uxmessage, control) {
+        $('.loader').hide();
+        swal(uxtitle, uxmessage, {
+            icon: "warning",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+        }).then(function () {
+            $("#" + control).focus();
+        });
+    }
+
+</script>
+
+<style>
+    .vertical-center {
+        text-align: right;
+    }
+</style>
+
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Menú</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Agregar SubMenú</a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <form method="post" asp-action="SaveSubMenu" asp-controller="Menu" id="frmAddSubMenu">
+                @Html.AntiForgeryToken()
+                <div class="card-header">
+                    @* <div class="d-flex align-items-center">
+                        <h5>Agregar SubMenú (@Model.Nombre)</h5>
+                    </div> *@
+                    <div class="card-title">Agregar SubMenú (@Model.SubMenu)</div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control letras" required asp-for="Nombre" id="txtNombre" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Url</label>
+                                <input type="text" class="form-control" required asp-for="Url" id="txtUrl" maxlength="60" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Orden</label>
+                                <input type="text" class="form-control" required asp-for="Orden" id="txtOrden" maxlength="60" />
+                                <input type="hidden" asp-for="idPadre" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action vertical-center">
+                    <button type="submit" class="btn btn-black">Agregar</button>
+                    <button type="submit" class="btn btn-secondary" onclick="location.href='@Url.Content("~/Menu/Index")';">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">opciones (@Model.SubMenu)</div>
+            </div>
+            <div class="card-body">
+                <table id="tbMenu" class="display table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th style="display:none;">idMenu</th>
+                            <th>Nombre</th>
+                            <th>Url</th>
+                            <th>Orden</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    @foreach (Menu menu in ViewBag.Opciones)
+                    {
+                        <tr>
+                            <td style="display:none;">
+                                @menu.idMenu
+                            </td>
+                            <td>
+                                @menu.Nombre
+                            </td>
+                            <td>
+                                @menu.Url
+                            </td>
+                            <td>
+                                @menu.Orden
+                            </td>
+                            <td>
+                                @menu.Status
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

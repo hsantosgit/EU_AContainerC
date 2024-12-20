@@ -1,0 +1,121 @@
+﻿@using EU_CottonContainer.Model
+@model Usuario
+
+<script>
+    var timer2 = "1:59";
+    var interval = setInterval(function () {
+        var timer = timer2.split(':');
+        //by parsing integer, I avoid all extra string processing
+        var minutes = parseInt(timer[0], 10);
+        var seconds = parseInt(timer[1], 10);
+        --seconds;
+        minutes = (seconds < 0) ? --minutes : minutes;
+        if (minutes < 0) clearInterval(interval);
+        seconds = (seconds < 0) ? 59 : seconds;
+        seconds = (seconds < 10) ? '0' + seconds : seconds;
+        $('.countdown').html(minutes + ':' + seconds);
+        timer2 = minutes + ':' + seconds;
+    }, 1000);
+
+    $(function () {
+        $('#frmAutentica').submit(function () {
+            $.ajax(
+                {
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        var strRes = result;
+                        if (strRes.substring(0, 2) == 'CA') {
+                            var parameter = strRes.substring(3, strRes.length);
+                            successMessage('Completado', 'Se a restablecido su contraseña. Nueva Contraseña: ' + parameter + ', se le pedirá cambio en su próximo ingreso.');
+                        }
+                        else
+                            warningMessage('Advertencia', result, 'inputCode');
+                    }
+                });
+            return false;
+        });
+
+        setTimeout(function() {
+             window.location = '@Url.Content("~/Home/Index")';
+        },120000)
+    });
+
+
+    function successMessage(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-success",
+                },
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location = '@Url.Content("~/Home/Salir")';
+        });
+    }
+
+    function warningMessage(uxtitle, uxmessage, control) {
+        swal(uxtitle, uxmessage, {
+            icon: "warning",
+            buttons: {
+                confirm: {
+                    className: "btn btn-warning",
+                },
+            },
+        }).then(function () {
+            $("#" + control).focus();
+        });
+    }
+
+    function delayer() {
+        window.location = '@Url.Content("~/Home/Index")';
+    }
+</script>
+
+<br />
+<br />
+<br />
+<br />
+<div class="d-flex align-items-center justify-content-center" id="MainsquareContainer">
+    <div class="row justify-content-center w-100">
+        <div class="col-md-8 col-lg-6 col-xxl-3">
+            <div class="card mb-0">
+                <div class="card-body">
+                    <div style="text-align: center">
+                        <h5>Solicitud Cambio Contraseña</h5>
+                    </div>
+                    <a href="#" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                        <img src="~/seo/images/eurologo.jpeg" alt="" />
+                    </a>
+                    <form method="post" asp-action="ActualizarContrasenaUsuario" asp-controller="Seguridad" id="frmAutentica">
+                        @Html.AntiForgeryToken()
+                        <div class="mb-3" style="text-align: justify;">
+                            @if (Model.IsTokenSMS >= 3)
+                            {
+                                <label>Se ha enviado un correo a:</label>
+                                <p><label>(</label>@Model.CorreoAlterno.Substring(0, 8) **********), con el código de acceso. Favor de capturarlo para continuar</p>
+                            }
+                            else if (Model.IsTokenMail == 1)
+                            {
+                                <label>Se ha enviado un correo a:</label>
+                                <p><label>(</label>@Model.Correo.Substring(0, 8) **********), con el código de acceso. Favor de capturarlo para continuar</p>
+                            }
+                        </div>
+                        <div class="mb-3">
+                            Tiempo de Espera: <span class="countdown"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Codigo</label>
+                            <input id="inputCode" type="text" class="form-control" required asp-for="TokenValidate" maxlength="10"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4">Validar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

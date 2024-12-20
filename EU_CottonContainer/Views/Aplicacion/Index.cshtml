@@ -1,0 +1,122 @@
+﻿@using EU_CottonContainer.Model
+@model List<Aplicacion>
+@{
+    Layout = "_Layout";
+}
+<script>
+    function EditApp(idApp) {
+         $.redirect("EditApp", {_idApp: idApp}, "POST");
+    }
+
+    function successMessageRedirect(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+                cancel: {
+                    className: "btn btn-secondary"
+                }
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location.href = '@Url.Content("~/Usuario/Index")';
+        });
+    }
+
+    function errorMessage(uxtitle, uxmessage) {
+        $('.loader').hide();
+        swal(uxtitle, uxmessage, {
+            icon: "error",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+        });
+    }
+</script>
+
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Aplicaciones</a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex align-items-center">
+                    <h5>Aplicaciones</h5>
+                    <button class="btn btn-black btn-round ms-auto" onclick="location.href='@Url.Content("~/Aplicacion/AddApp")';">
+                        <i class="fa fa-plus"></i>
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="add-row" class="table table-responsive table-hover gridBody dataTable no-footer">
+                        <thead>
+                            <tr>
+                                <th style="display:none;">IdAplicacion</th>
+                                <th>Nombre</th>
+                                <th>Url</th>
+                                <th>Icono</th>
+                                <th>Estatus</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Aplicacion app in Model)
+                            {
+                                <tr>
+                                    <td style="display:none;">
+                                        @app.idAplicacion
+                                    </td>
+                                    <td>
+                                        @app.Nombre
+                                    </td>
+                                    <td>
+                                        @app.Url
+                                    </td>
+                                    <td>
+                                        @app.icono
+                                    </td>
+                                    <td>
+                                        @app.Status
+                                    </td>
+                                    <td>
+                                        <div class="form-button-action">
+                                            <button type="button" id="btnEdit" title="Editar" class="btn btn-link btn-lg" onclick="EditApp('@app.idAplicacion');">
+                                                <i class="fa fa-edit"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

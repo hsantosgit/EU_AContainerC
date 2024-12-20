@@ -1,0 +1,221 @@
+﻿@model EU_CottonContainer.Model.Usuario
+@{
+    Layout = null;
+    ViewBag.Title = "Inicio Sesión";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="null" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store" />
+    <!--style page-->
+    <link type="text/css" href="@Url.Content("~/seo/css/styles.min.css")" rel="Stylesheet" />
+
+     <script src="@Url.Content("~/seo/libs/jquery/dist/jquery.min.js")" ></script>
+    @* <script src='@Url.Content("~/kaia/js/core/jquery-3.7.1.min.js")'></script> *@
+    <script src="@Url.Content("~/seo/libs/bootstrap/dist/js/bootstrap.bundle.min.js")"></script>
+
+    <!-- Google Captcha -->
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--   Core JS Files   -->
+    <script src='@Url.Content("~/js/jquery.redirect.js")'></script>
+
+    <!-- Sweet Alert -->
+    <script src='@Url.Content("~/kaia/js/plugin/sweetalert/sweetalert.min.js")'></script>
+
+    <script>
+        var viewportContent = '';
+        if (window.devicePixelRatio = 1) {
+            viewportContent = 'width=device-width, initial-scale=0.51, maximum-scale=0.51, user-scalable=0, target-densityDpi=device-dpi';
+        } else if (window.devicePixelRatio == 2) {
+            viewportContent = 'width=device-width, initial-scale=0.51, maximum-scale=0.51, user-scalable=0';
+        } else if (window.devicePixelRatio == .78) {
+            viewportContent = 'width=device-width, initial-scale=0.51, maximum-scale=0.51, user-scalable=0, target-densityDpi=device-dpi';
+        } else if (window.devicePixelRatio == 1.5) {
+            viewportContent = 'width=device-width, initial-scale=0.51, maximum-scale=0.51, user-scalable=0, target-densityDpi=device-dpi';
+        }
+        $('head').append('<meta name="viewport" content="' + viewportContent + '">');
+    </script>
+
+    <script>
+
+        var onloadCallback = function () {
+            //Localhost
+            grecaptcha.render('divcaptcha', { 'sitekey': '6LdLLUcqAAAAADpKmpe9mACINJ2Vv67N3_6mmLGK' });
+
+            //prod
+            // grecaptcha.render('divcaptcha', { 'sitekey': '6LdYDYQqAAAAAHLEH9iSU1YBC8-c86WvMU2Pbmuv' });
+        };
+
+        $(function () {
+            $('#frmLogin').submit(function (e) {
+                 e.preventDefault();
+                $.ajax(
+                    {
+                        url: this.action,
+                        type: this.method,
+                        data: $(this).serialize(),
+                        success: function (result) {
+                            var strRes = result;
+                            if (result == 'OK') {
+                                window.location.href = '@Url.Content("~/Home/Index")';
+                            }
+                            else if (strRes.substring(0, 2) == 'AU')
+                            {
+                                $.redirect("/Seguridad/Index/", {usuario: $("#inputUser").val(), bandera: "0"}, "POST");
+                            }
+                            else if (strRes.substring(0, 2) == 'CO') {
+                                var parameter = strRes.substring(3, strRes.length);
+                                // var _uri = '@Url.Action("Index", "/Seguridad")';
+                                // _uri += parameter;
+                                // window.location.href = _uri;
+                                $.redirect("/Seguridad/Index/", {usuario: $("#inputUser").val(), bandera: "2"}, "POST");
+                            }
+                            else if (strRes.substring(0, 2) == 'CC') {
+                                window.location.href = '@Url.Content("~/Seguridad/Index")';
+                            }
+                            else
+                                warningMessage('Advertencia', result, 'inputUser');
+                        },
+                        beforeSend: function(){
+                             $('.loader').show();
+                        }
+                    });
+                return false;
+            });
+        });
+
+        function successMessageRedirect(uxtitle, uxmessage) {
+            swal(uxtitle, uxmessage, {
+                icon: "success",
+                buttons: {
+                    confirm: {
+                        className: "btn btn-success",
+                    },
+                },
+                timer: 20000,
+            }).then(function () {
+                window.location = page;
+            });
+        }
+
+        function warningMessage(uxtitle, uxmessage, control) {
+            $('.loader').hide();
+            swal(uxtitle, uxmessage, {
+                icon: "warning",
+                buttons: {
+                    confirm: {
+                        className: "btn btn-warning",
+                    },
+                },
+            }).then(function () {
+                $("#" + control).focus();
+                $("#inputPass").val('');
+                //Localhost
+                grecaptcha.reset(document.getElementById('divcaptcha'), { 'sitekey': '6LdLLUcqAAAAADpKmpe9mACINJ2Vv67N3_6mmLGK' });
+
+                //prod
+                // grecaptcha.reset(document.getElementById('divcaptcha'), { 'sitekey': '6LdYDYQqAAAAAHLEH9iSU1YBC8-c86WvMU2Pbmuv' });
+            });
+        }
+
+        function mostrarPassword(control)
+        {
+            var cambio = document.getElementById(control);
+
+            if (cambio.type == "password") {
+                cambio.type = "text";
+                $('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+            } else {
+                cambio.type = "password";
+                $('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+            }
+        }
+
+    </script>
+    <style>
+        .loading-image {
+            position: absolute;
+            top: 43%;
+            left: 48%;
+            z-index: 10;
+            width: 80px;
+            height: 80px;
+        }
+
+        .loader {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            text-align: center;
+            z-index: 10000;
+            opacity: 0.50;
+            overflow: auto;
+            background: #999;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="loader">
+        <img class="loading-image" src="~/img/loader.gif" />
+    </div>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <a href="#" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src='@Url.Content("~/img/eurologo.jpeg")' />
+                                </a>
+                                <form method="post" asp-action="Login" asp-controller="Cuenta" id="frmLogin" LoadingElementId="loader">
+                                    <div class="mb-3">
+                                        <label for="inputUser" class="form-label">Usuario</label>
+                                        <input id="inputUser" type="text" class="form-control" required asp-for="userName" />
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="inputPass" class="form-label">Contraseña</label>
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" id="inputPass" required asp-for="Password" />
+                                            <div class="input-group-append">
+                                                <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword('inputPass');"><span class="fa fa-eye-slash icon"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <div id="divcaptcha"></div>
+                                    </div>
+                                    @* <div class="checkbox mb-3" style="display:none">
+                                        <label>
+                                            <input type="checkbox" asp-for="MantenerActivo" /> Mantener Sesión activa
+                                        </label>
+                                    </div> *@
+                                    <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4">Ingresar</button>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <p class="fs-4 mb-0 fw-bold"></p>
+                                        <a class="text-primary fw-bold ms-2" href="@Url.Content("~/Seguridad/RecuperarContrasena")">Recuperar Contraseña</a>
+                                    </div>
+
+                                </form>
+                            </div>
+                            <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+                            <div id="divResult" style="border:none;"></div>
+                            <label class="alert-danger">@ViewBag.Error</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

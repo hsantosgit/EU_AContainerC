@@ -1,0 +1,496 @@
+﻿@using EU_CottonContainer.Model
+@model Usuario
+@{
+    Layout = "_Layout";
+}
+
+
+<style>
+    .vertical-center {
+        text-align: right;
+    }
+
+    .chkChoice input {
+        margin-left: -20px;
+    }
+
+    .chkChoice td {
+        padding-left: 20px;
+    }
+
+    .checkbox .btn, .checkbox-inline .btn {
+        padding-left: 2em;
+        min-width: 8em;
+    }
+
+    .checkbox label, .checkbox-inline label {
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    .checkbox input[type="checkbox"] {
+        float: none;
+    }
+
+    .lblclass {
+        background-color: lightgreen;
+        color: white;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('#txtNombre').focus();
+
+        $("#sIdStatus").val("4").change();
+
+        $(".letras").keypress(function (key) {
+            // window.console.log(key.charCode)
+            if ((key.charCode < 97 || key.charCode > 122)//letras mayusculas
+                && (key.charCode < 65 || key.charCode > 90) //letras minusculas
+                && (key.charCode != 45) //retroceso
+                && (key.charCode != 241) //ñ
+                && (key.charCode != 209) //Ñ
+                && (key.charCode != 32) //espacio
+                && (key.charCode != 225) //á
+                && (key.charCode != 233) //é
+                && (key.charCode != 237) //í
+                && (key.charCode != 243) //ó
+                && (key.charCode != 250) //ú
+                && (key.charCode != 193) //Á
+                && (key.charCode != 201) //É
+                && (key.charCode != 205) //Í
+                && (key.charCode != 211) //Ó
+                && (key.charCode != 218) //Ú
+
+            )
+                return false;
+        });
+
+        $(".numeros").keypress(function (key) {
+            // window.console.log(key.charCode)
+            if ((key.charCode < 48 || key.charCode > 57)//letras mayusculas
+            )
+                return false;
+        });
+    });
+
+    $(function () {
+        $('#frmAddUser').submit(function () {
+            $.ajax(
+                {
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        var strRes = result;
+                        if (result == 'OK') {
+                            successMessageRedirect('Completado.', 'Usuario agregado con éxito.' + '\n Usuario: ' +  $('#txtUser').val() + '\n Contraseña: ' +  $('#txtUser').val());
+                        }
+                        else {
+                            warningMessage('Advertencia', result);
+                        }
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+            return false;
+        });
+    });
+
+    var nameTrue = 0;
+    function valName() {
+        $.ajax(
+            {
+                url: '@Url.Action("ValidateName", "/Usuario")',
+                type: "POST",
+                data: { Nombre: $('#txtNombre').val(), Paterno : $('#txtPaterno').val(), Materno: $('#txtMaterno').val() },
+                success: function (result) {
+                    if (result == 'OK') {
+                        nameTrue = 1;
+                        setUser();
+                        $('.loader').hide();
+                    }
+                    else if (result == '') {
+                        warningMessage('Advertencia', 'Capture nombre de usuario', 'txtNombre');
+                        nameTrue = 0;
+                    }
+                    else {
+                        warningMessage('Advertencia', result, 'txtNombre');
+                         nameTrue = 0;
+                    }
+                },
+                beforeSend: function () {
+                    $('.loader').show();
+                }
+            });
+    }
+
+    function setUser() {
+        var rName = $.trim($('#txtNombre').val().toLowerCase());
+        var rPaterno = $.trim($('#txtPaterno').val().toLowerCase());
+        var rMaterno = $.trim($('#txtMaterno').val().toLowerCase());
+        $('#txtUser').val(rName.substring(0, 1) + rPaterno + rMaterno.substring(0, 1));
+    }
+
+    var usertrue = 0;
+    var emailtrue = 0;
+    var emailalternotrue = 0;
+    function valUser() {
+        if(nameTrue==1)
+        {
+            $.ajax(
+                {
+                    url: '@Url.Action("ValidateUser", "/Usuario")',
+                    type: "POST",
+                    data: { userName: $('#txtUser').val() },
+                    success: function (result) {
+                        if (result == 'OK') {
+                            usertrue = 0;
+                            $('.loader').hide();
+                        }
+                        else if (result == '') {
+                            usertrue = 1;
+                            warningMessage('Advertencia', 'Capture nombre de usuario', 'txtUser');
+                        }
+                        else {
+                            usertrue = 1;
+                            warningMessage('Advertencia', result, 'txtUser');
+                        }
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+        }
+    }
+
+    function valEmail() {
+        emailtrue = 1;
+        if (usertrue == 0)
+        {
+            $.ajax({
+                url: '@Url.Action("ValidateEmail", "/Usuario")',
+                type: "POST",
+                data: { Email: $('#txtCorreo').val() },
+                success: function (result) {
+                    var strRes = result;
+                    if (result == 'OK') {
+
+                        $('.loader').hide();
+                        swal({
+                            title: "Código de Validación",
+                            html: '<br><input class="form-control" placeholder="Ingrese código envíado por correo" id="mailToken">',
+                            content: {
+                                element: "input",
+                                attributes: {
+                                    placeholder: "Ingrese código envíado por correo",
+                                    type: "text",
+                                    id: "mailToken",
+                                    className: "form-control",
+                                    },
+                                },
+                            buttons: {
+                                confirm: {
+                                    text: "Confirmar",
+                                    className: "btn btn-black",
+                                },
+                                cancel: {
+                                    text: "Cancelar",
+                                    visible: true,
+                                    className: "btn btn-secondary",
+                                },
+                                    },
+                            }).then((Delete) => {
+                                if (Delete) {
+                                    $.ajax(
+                                    {
+                                        url: '@Url.Action("validaMailToken", "/Usuario")',
+                                        type: "POST",
+                                        data: { Token: $('#mailToken').val() },
+                                        success: function (result) {
+                                            var strRes = result;
+                                            if (result == 'OK') {
+                                                $('.loader').hide();
+                                                document.getElementById('lblCorreo').innerHTML = "Correo validado con éxito!.";
+                                                document.getElementById('lblCorreo').className = "lblclass";
+                                                $("#hdCorreo").val($("#txtCorreo").val());
+                                                $("txtCorreo").prop('disabled', true);
+                                                $("#txtCorreoAlt").focus();
+                                                emailtrue = 0;
+                                            }
+                                            else
+                                            {
+                                                warningMessage('Advertencia', result, 'txtCorreo');
+                                            }
+                                        },
+                                        beforeSend: function () {
+                                            $('.loader').show();
+                                        }
+                                    });
+                                }
+                                else {
+                                    $("#txtCorreo").focus();
+                                    swal.close();
+                                }
+                            });
+                    }
+                    else if (result == '') {
+                        warningMessage('Advertencia', 'Capture correo de usuario', 'txtCorreo');
+                        emailtrue = 1;
+                    }
+                    else {
+                        warningMessage('Advertencia', result, 'txtCorreo');
+                        emailtrue = 1;
+                    }
+                },
+                beforeSend: function () {
+                    $('.loader').show();
+                }
+            });
+        }
+    }
+
+    function valEmailAlt() {
+        if (emailtrue == 0) {
+            emailalternotrue = 1;
+            $.ajax(
+                {
+                    url: '@Url.Action("ValidateEmailAlt", "/Usuario")',
+                    type: "POST",
+                    data: { Email: $('#txtCorreoAlt').val() },
+                    success: function (result) {
+                        var strRes = result;
+                        if (result == 'OK') {
+                            $('.loader').hide();
+                            emailalternotrue = 0;
+                        }
+                        else if (result == '') {
+                            warningMessage('Advertencia', 'Capture correo alternativo.', 'txtCorreoAlt');
+                        }
+                        else warningMessage('Advertencia', result, 'txtCorreoAlt');
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+        }
+    }
+
+    function valTel() {
+        if (emailalternotrue == 0) {
+            $.ajax(
+                {
+                    url: '@Url.Action("ValidatePhone", "/Usuario")',
+                    type: "POST",
+                    data: { Phone: $('#txtTelefono').val() },
+                    success: function (result) {
+                        var strRes = result;
+                        if (result == 'OK') {
+                            $('.loader').hide();
+                        }
+                        else if (result == '') {
+                            warningMessage('Advertencia', 'Capture teléfono de usuario', 'txtTelefono');
+                        }
+                        else warningMessage('Advertencia', result, 'txtTelefono');
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+        }
+    }
+
+    function mayus(e) {
+        e.value = e.value.toUpperCase();
+    }
+
+    function successMessageRedirect(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location.href = '@Url.Content("~/Usuario/Index")';
+        });
+    }
+
+    function warningMessage(uxtitle, uxmessage, control) {
+        $('.loader').hide();
+        swal(uxtitle, uxmessage, {
+            icon: "warning",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+        }).then(function () {
+            $("#" + control).focus();
+        });
+    }
+
+    function successMessage(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            }
+        });
+    }
+
+    function valueChanged() {
+        if ($('[id$=chkToken]')[0].checked) {
+            $("[id$=TiposToken]").show();
+        }
+        else {
+            $("[id$=TiposToken]").hide();
+        }
+    }
+
+    function btnClickBack() {
+        if (!validData())
+            window.location.href = '@Url.Content("~/Usuario/Index")';
+    }
+
+</script>
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Usuarios</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Agregar Usuario</a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <form method="post" asp-action="SaveUser" asp-controller="Usuario" id="frmAddUser">
+                @Html.AntiForgeryToken()
+                <div class="card-header">
+                    <div class="d-flex align-items-center">
+                        <h5>Agregar Usuario</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control letras" required asp-for="Nombre" id="txtNombre" onkeyup="mayus(this);" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Apellido Paterno</label>
+                                <input type="text" class="form-control letras" required asp-for="apPaterno" id="txtPaterno" onkeyup="mayus(this);" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Apellido Materno</label>
+                                <input type="text" class="form-control letras" required asp-for="apMaterno" id="txtMaterno" onblur="valName();" onkeyup="mayus(this);" maxlength="50" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Usuario</label>
+                                <input type="text" id="txtUser" class="form-control letras" required asp-for="userName" onblur="valUser();" maxlength="45" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label id="lblCorreo">Correo(se envíara código de validación)</label>
+                                <input type="text" class="form-control" required asp-for="Correo" id="txtCorreo" onkeyup="mayus(this);" onblur="valEmail();" maxlength="100" />
+                                <input type="hidden" asp-for="Correo" id="hdCorreo" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Correo Alternativo</label>
+                                <input type="text" class="form-control" required asp-for="CorreoAlterno" id="txtCorreoAlt" onkeyup="mayus(this);" onblur="valEmailAlt();" maxlength="100" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Teléfono</label>
+                                <input type="text" class="form-control numeros" required asp-for="Telefono" id="txtTelefono" onblur="valTel();" maxlength="10" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Rol</label>
+                                <select class="form-select" asp-for="idRol" asp-items="@(new SelectList(@ViewBag.stores, "idRol", "Nombre"))">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <label>Planta</label>
+                                <select class="form-select" asp-for="idPlanta" asp-items="@(new SelectList(@ViewBag.planta, "idPlanta", "Nombre"))">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group checkbox">
+                                <label>Aplicaciones</label>
+                                <div class="form-control">
+                                    @foreach (var checkbox in ViewBag.Aplicacion)
+                                    {
+                                        <div>
+                                            <input type="checkbox" value="@checkbox.idAplicacion" name="AppIds" id="checkbox_@checkbox.idAplicacion" checked="@checkbox.isChecked" />
+                                            <label class="form-check-label" for="checkbox_@checkbox.idAplicacion">
+                                                @checkbox.Nombre
+                                            </label>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3" style="display:none;">
+                            <div class="form-group">
+                                <label>Status</label>
+                                <select id="sIdStatus" class="form-select" asp-for="Status" asp-items="@(new SelectList(@ViewBag.Status, "Status", "Abreviatura"))" disabled="disabled">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action vertical-center">
+                    <button type="submit" class="btn btn-black">Agregar</button>
+                    <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Content("~/Usuario/Index")';">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,114 @@
+﻿@using EU_CottonContainer.Model
+@model Rol
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+
+<script>
+    $(function () {
+            $('#jstree').on('changed.jstree', function (e, data) {
+                var i, j;
+                var selectedItems = [];
+                for(i = 0, j = data.selected.length; i < j; i++) {
+                    var id = data.selected[i];
+                    var parent;
+                    var nodeId;
+                    if(id.indexOf('-') != -1){
+                        nodeId = id.split("-")[1];
+                        parent = id.split("-")[0];
+                    } else {
+                        nodeId = id;
+                        parent = "#";
+                    }
+
+                    selectedItems.push({
+                        text: data.instance.get_node(data.selected[i]).text,
+                        id: nodeId,
+                        parent: parent
+                    });
+                }
+
+                $('#selectedItems').val(JSON.stringify(selectedItems));
+            }).jstree({
+                "checkbox": { "keep_selected_style": false },
+                "plugins": ["wholerow", "checkbox"],
+                "core": {
+                    "themes": { "variant": "large" },
+                    "data": @Html.Raw(Model.Nodes)
+                }
+            }).bind("loaded.jstree", function(event, data) {
+             $(this).jstree("open_all");
+        });
+        });
+
+    $(function () {
+        $('#frmSavePerfilRol').submit(function () {
+            $.ajax(
+                {
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        if (result == 'OK') {
+                            successMessageRedirect('Completado.', 'Rol Actualizado con éxito.');
+                        }
+                        else {
+                            warningMessage('Advertencia', result);
+                        }
+                    },
+                    beforeSend: function () {
+                        $('.loader').show();
+                    }
+                });
+            return false;
+        });
+    });
+
+    function successMessageRedirect(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location.href = '@Url.Content("~/Rol/Index")';
+        });
+    }
+
+    function warningMessage(uxtitle, uxmessage, control) {
+        $('.loader').hide();
+        swal(uxtitle, uxmessage, {
+            icon: "warning",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+        }).then(function () {
+            $("#" + control).focus();
+        });
+    }
+</script>
+
+<div class="card">
+    <div class="card-header">
+        <div class="d-flex align-items-center">
+            <h5>Rol - (@Model.Nombre)</h5>
+        </div>
+    </div>
+    <form method="post" asp-action="SavePerfilRol" asp-controller="Rol" id="frmSavePerfilRol">
+        @Html.AntiForgeryToken()
+        <div class="card-body">
+            <div id="jstree">
+            </div>
+        </div>
+        <div class="card-footer vertical-center">
+            <button type="submit" class="btn btn-black">Guardar</button>
+            <input type="hidden" name="selectedItems" id="selectedItems" />
+            <input type="hidden" asp-for="idRol" />
+        </div>
+    </form>
+</div>

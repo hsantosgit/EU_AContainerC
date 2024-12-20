@@ -1,0 +1,9 @@
+﻿@using EU_CottonContainer.Model
+@model List<Aplicacion>
+
+@foreach (Aplicacion _app in Model)
+{
+    <input type="checkbox" id="@_app.idAplicacion" asp-for="@_app.isChecked" class="form-check-input" />
+    <label class="form-check-label">@_app.Nombre</label>
+    <br />
+}

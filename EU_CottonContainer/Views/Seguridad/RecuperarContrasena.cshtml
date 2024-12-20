@@ -1,0 +1,150 @@
+﻿@model EU_CottonContainer.Model.Usuario
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <meta charset="null" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store" />
+    <!--style page-->
+    <link href=@Url.Content("~/seo/css/styles.min.css") rel="stylesheet" />
+
+    @* <script src=@Url.Content("~/seo/libs/jquery/dist/jquery.min.js")></script>*@
+    
+
+    <!--   Core JS Files   -->
+    <script src='@Url.Content("~/kaia/js/core/jquery-3.7.1.min.js")'></script>
+    <script src=@Url.Content("~/seo/libs/bootstrap/dist/js/bootstrap.bundle.min.js")></script>
+
+    <script src='@Url.Content("~/js/jquery.redirect.js")'></script>
+    <!-- Sweet Alert -->
+    <script src=@Url.Content("~/kaia/js/plugin/sweetalert/sweetalert.min.js")></script>
+
+    <script>
+        $(function () {
+            $('#frmRecupera').submit(function () {
+                $.ajax(
+                    {
+                        url: this.action,
+                        type: this.method,
+                        data: $(this).serialize(),
+                        success: function (result) {
+                            var strRes = result;
+                            if (strRes.substring(0, 2) == 'OK') {
+                                // var parameter = strRes.substring(3, strRes.length);
+                                // var _uri = '@Url.Action("Index", "/Seguridad")';
+                                // _uri += parameter;
+                                // window.location.href = _uri;
+                                 $.redirect("/Seguridad/Index/", {usuario: $("#inputUser").val(), bandera: "1"}, "POST");
+                            }
+                            else
+                                warningMessage('Advertencia', result, 'inputUser');
+                        },
+                        beforeSend: function () {
+                            $('.loader').show();
+                        }
+                    });
+                return false;
+            });
+        });
+
+        function warningMessage(uxtitle, uxmessage, control) {
+            $('.loader').hide();
+            swal(uxtitle, uxmessage, {
+                icon: "warning",
+                buttons: {
+                    confirm: {
+                        className: "btn btn-warning",
+                    },
+                },
+            }).then(function () {
+                $("#" + control).focus();
+            });
+        }
+
+        function successMessage(uxtitle, uxmessage) {
+            swal(uxtitle, uxmessage, {
+                icon: "success",
+                buttons: {
+                    confirm: {
+                        className: "btn btn-success",
+                    },
+                },
+                timer: 20000,
+            }).then(function () {
+                window.location = '@Url.Content("~/Cuenta/Login")';
+            });
+        }
+    </script>
+    <style>
+        .loading-image {
+            position: absolute;
+            top: 43%;
+            left: 48%;
+            z-index: 10;
+            width: 80px;
+            height: 80px;
+        }
+
+        .loader {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            text-align: center;
+            z-index: 10000;
+            opacity: 0.50;
+            overflow: auto;
+            background: #999;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="loader">
+        <img class="loading-image" src="~/img/loader.gif" />
+    </div>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <div style="text-align: center">
+                                    <h5>Recuperar Contraseña</h5>
+                                </div>
+                                <a href="#" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src="~/seo/images/eurologo.jpeg" alt="" />
+                                </a>
+                                <form method="post" asp-action="RestaurarContrasena" asp-controller="Seguridad" id="frmRecupera">
+                                    @Html.AntiForgeryToken()
+                                    <div class="mb-2"></div>
+                                    <div class="mb-3">
+                                        <label for="inputUser" class="form-label">Usuario</label>
+                                        <input id="inputUser" type="text" class="form-control" asp-for="userName" maxlength="20"/>
+                                    </div>
+                                    @* <div class="mb-3">
+                                        <label for="inputTelefono" class="form-label">Teléfono</label>
+                                        <input id="inputTelefono" type="text" class="form-control" asp-for="Telefono" />
+                                    </div> *@
+                                    <div class="mb-5">
+
+                                        <label for="inputCorreo" class="form-label">Correo</label>
+                                        <input id="inputCorreo" type="text" class="form-control" asp-for="Correo" />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-1">Solicitar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+﻿@using EU_CottonContainer.Model
+@model List<Perfil>
+@{
+    Layout = "_Layout";
+}
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+
+<script>
+    $(document).on('click', 'input[type="checkbox"]', function() {
+        $('input[type="checkbox"]').not(this).prop('checked', false);
+    });
+
+    function EditOptions(idPerfil)
+    {
+        var parameter = "?_sPerfil=" + idPerfil;
+        $('#partialZone').load("/Perfil/MenuPerfilPartial" + parameter);
+    }
+
+    function EditPerfil(idPerfil) {
+
+        // var parameter = "?_idPerfil=" + idPerfil;
+        // var _uri = '@Url.Action("EditPerfil", "/Perfil")';
+        // _uri += parameter;
+        // window.location.href = _uri;
+
+         $.redirect("EditPerfil", {_idPerfil: idPerfil}, "POST");
+    }
+
+    function successMessageRedirect(uxtitle, uxmessage) {
+        swal(uxtitle, uxmessage, {
+            icon: "success",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+            timer: 20000,
+        }).then(function () {
+            window.location.href = '@Url.Content("~/Perfil/Index")';
+        });
+    }
+
+    function warningMessage(uxtitle, uxmessage, control) {
+        $('.loader').hide();
+        swal(uxtitle, uxmessage, {
+            icon: "warning",
+            buttons: {
+                confirm: {
+                    className: "btn btn-black",
+                },
+            },
+        }).then(function () {
+            $("#" + control).focus();
+        });
+    }
+
+</script>
+
+<style>
+    .minWidth1 {
+        width: 50px;
+    }
+
+    .vertical-center {
+        text-align: right;
+    }
+</style>
+
+<div class="page-header">
+    <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+            <a href="#">
+                <i class="fas fa-layer-group"></i>
+            </a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Seguridad</a>
+        </li>
+        <li class="separator">
+            <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+            <a href="#">Perfil</a>
+        </li>
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex align-items-center">
+                    <h5>Perfil</h5>
+                    <button class="btn btn-black btn-round ms-auto" onclick="location.href='@Url.Content("~/Perfil/AddPerfil")';">
+                        <i class="fa fa-plus"></i>
+                        Agregar
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="tbPerfil" class="table table-responsive table-hover no-footer">
+                        <thead>
+                            <tr>
+                                <th style="display:none;">idPerfil</th>
+                                <th>Nombre</th>
+                                <th>Status</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Perfil _per in Model)
+                            {
+                                <tr>
+                                    <td style="display:none;">
+                                        @_per.idPerfil
+                                    </td>
+
+                                    <td>
+                                        @_per.Nombre
+                                    </td>
+                                    <td>
+                                        @_per.Status
+                                    </td>
+                                    <td class="minWidth1">
+                                        <div class="form-button-action">
+                                            <button type="button" id="btnUnlock" title="Editar SubMenú" class="btn btn - lg" onclick="EditPerfil('@_per.idPerfil');">
+                                                <i class="fa fa-pen-square"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="minWidth1">
+                                        <input type="checkbox" style="cursor:pointer" onclick="EditOptions('@_per.idPerfil');" />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="partialZone" class="col">
+    </div>
+    @* <div class="col">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex align-items-center">
+                    <h5>Menu (Perfil)</h5>
+                    <div style="width:80%;text-align:right;">
+                        <button class="btn btn-black btn-round">
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                        <button class="btn btn-black btn-round">
+                            <i class="fa fa-angle-up"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <form method="post" asp-action="SaveMenuPerfil" asp-controller="Perfil" id="frmSaveMenuPerfil">
+                <div class="card-body">
+                    <div id="jstree">
+                    </div>
+                </div>
+                <div class="card-footer vertical-center">
+                    <button type="submit" class="btn btn-black">Guardar</button>
+                    <input type="hidden" name="selectedItems" id="selectedItems" />
+                </div>
+            </form>
+        </div>
+    </div> *@
+</div>
