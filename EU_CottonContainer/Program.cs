@@ -23,7 +23,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     option.LoginPath = "/Cuenta/login";
 });
 
-builder.Services.Configure<CookiePolicyOptions>(opt => { opt.MinimumSameSitePolicy = SameSiteMode.None; });
+builder.Services.Configure<CookiePolicyOptions>(opt => { opt.MinimumSameSitePolicy = SameSiteMode.Strict; });
 builder.Services.Configure<SMTPConfigMail>(builder.Configuration.GetSection("SMTPConfig"));
 
 var app = builder.Build();

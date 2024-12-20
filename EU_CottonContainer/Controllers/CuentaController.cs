@@ -38,6 +38,7 @@ namespace EU_CottonContainer.Controllers
         [HttpPost]
         [AllowAnonymous]
         [OutputCache]
+        [AutoValidateAntiforgeryToken]
         public string Login(Usuario _user)
         {
             try
@@ -137,8 +138,9 @@ namespace EU_CottonContainer.Controllers
                                             //else
                                             //    p.ExpiresUtc = DateTimeOffset.UtcNow.AddDays(20);
 
+                                            TokenFacade.DelUserToken(_xuser.idUsuario);
                                             HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(ci), p);
-                                            SeguridadFacade.UpdateTokenSMS(_user.idUsuario, 0);
+                                            SeguridadFacade.UpdateTokenSMS(_xuser.idUsuario, 0);
 
                                             BitacoraFacade.AddBitacora(new Bitacora { idUsuario = _xuser.idUsuario, idMenu = 3, Accion = "Ingreso sistema: " + _xuser.userName, ipAddress = this.HttpContext.Connection.RemoteIpAddress.ToString(), mcAddress = location.GetMACAddress(), Ubicacion = location.GetGeoCodedResults(this.HttpContext.Connection.RemoteIpAddress.ToString()).Status.ToString() });
 
@@ -147,7 +149,7 @@ namespace EU_CottonContainer.Controllers
                                         else
                                         {
                                             //Borramos sus Tokens si tiene alguno habilitado
-                                            TokenFacade.DelUserToken(_user.idUsuario);
+                                            TokenFacade.DelUserToken(_xuser.idUsuario);
                                             //Ahora debe pasar a la autenticación por mail 
                                             url = "AU/" + string.Format("?usuario={0}&bandera={1}", _xuser.userName, "0");
                                         }

@@ -48,6 +48,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveMenu(Menu menu)
         {
             string resp = string.Empty;
@@ -119,6 +120,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveMenuEdit(Menu menu)
         {
             string resp = string.Empty;
@@ -171,6 +173,7 @@ namespace EU_CottonContainer.Controllers
 
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveSubMenu(Menu menu)
         {
             string resp = string.Empty;
@@ -204,6 +207,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveSubMenuEdit(Menu menu)
         {
             string resp = string.Empty;

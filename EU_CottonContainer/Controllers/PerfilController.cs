@@ -72,6 +72,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveEditPerfil(Perfil _perfil)
         {
             string resp = string.Empty;
@@ -142,6 +143,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveMenuPerfil(string selectedItems, Perfil _perfil)
         {
             string resp = string.Empty;
@@ -182,6 +184,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SavePerfil(Perfil _perfil)
         {
             string resp = string.Empty;

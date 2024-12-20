@@ -71,6 +71,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveRol(Rol _rol)
         {
             string resp = string.Empty;
@@ -95,6 +96,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveEditRol(Rol _rol)
         {
             string resp = string.Empty;
@@ -143,6 +145,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SavePerfilRol(string selectedItems, Rol _rol)
         {
             string resp = string.Empty;

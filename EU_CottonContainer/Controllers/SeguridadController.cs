@@ -8,8 +8,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
-using System.Net.Mail;
-using System.Net;
 using Microsoft.AspNetCore.OutputCaching;
 
 namespace EU_CottonContainer.Controllers
@@ -19,13 +17,14 @@ namespace EU_CottonContainer.Controllers
         private static Usuario _user;
 
         [HttpPost]
+        [AllowAnonymous]
         [OutputCache]
         public ActionResult Index(string usuario, string bandera)
         {
             _user = UsuarioFacade.GetUsuarioByUserName(usuario);
             List<Token> _listTokens = TokenFacade.ObtenTokenList();
             //Validamos que el usuario no tenga un token registrado
-            if (_listTokens.FindAll(x => x.idUsuario == _user.idUsuario).Count > 0 && bandera != "1")
+            if (_listTokens.FindAll(x => x.idUsuario == _user.idUsuario).Count > 0)
             {
                 return RedirectToAction("Salir", "Home");
             }
@@ -34,10 +33,11 @@ namespace EU_CottonContainer.Controllers
             _user.Token = Convert.ToString(random.Next(100000, 999999));
 
             //Guardamos el token actual para evitar el reenvío de tokens para el mismo usuario
-            if (bandera != "1")
-            {
-                UsuarioFacade.SaveToken(_user);
-            }
+            UsuarioFacade.SaveToken(_user);
+            //if (bandera != "1")
+            //{
+            //    UsuarioFacade.SaveToken(_user);
+            //}
 
             _user.Sesion = bandera;
             if (bandera == "0")
@@ -108,6 +108,8 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public string Validate(Usuario user)
         {
             string resp = string.Empty;
@@ -117,13 +119,13 @@ namespace EU_CottonContainer.Controllers
                 {
                     if (_user.Sesion == "0")
                     {
-                        List<Claim> c = new List<Claim>() { new Claim(ClaimTypes.Name, _user.userName) };
+                        List<Claim> c = new List<Claim>() { new Claim(ClaimTypes.Name, user.userName) };
 
                         ClaimsIdentity ci = new(c, CookieAuthenticationDefaults.AuthenticationScheme);
                         AuthenticationProperties p = new();
 
                         p.AllowRefresh = true;
-                        p.IsPersistent = _user.MantenerActivo;
+                        p.IsPersistent = true;
                         p.ExpiresUtc = DateTime.UtcNow.AddMinutes(20);
 
                         //if (!_user.MantenerActivo)
@@ -174,6 +176,7 @@ namespace EU_CottonContainer.Controllers
 
         [HttpPost]
         [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public string UpdatePass(Usuario user)
         {
             string resp = string.Empty;
@@ -220,9 +223,12 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public string RestaurarContrasena(Usuario user)
         {
             string resp = string.Empty;
+            user = UsuarioFacade.GetUsuarioByUserName(user.userName);
             try
             {
                 if (!string.IsNullOrEmpty(user.Correo))
@@ -234,6 +240,7 @@ namespace EU_CottonContainer.Controllers
                     }
                     else
                     {
+                        TokenFacade.DelUserToken(user.idUsuario);
                         BitacoraFacade.AddBitacora(new Bitacora { idUsuario = user.idUsuario, idMenu = 3, Accion = "Recuperación de contraseña usuario: " + user.userName, ipAddress = this.HttpContext.Connection.RemoteIpAddress.ToString(), mcAddress = location.GetMACAddress(), Ubicacion = location.GetGeoCodedResults(this.HttpContext.Connection.RemoteIpAddress.ToString()).Status.ToString() });
                         resp = "OK/" + string.Format("?usuario={0}&bandera={1}", user.userName, "1");
                     }
@@ -283,6 +290,8 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
         public string ActualizarContrasenaUsuario(Usuario user)
         {
             string resp = string.Empty;

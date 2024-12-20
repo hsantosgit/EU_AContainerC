@@ -178,6 +178,7 @@
                                     <img src='@Url.Content("~/img/eurologo.jpeg")' />
                                 </a>
                                 <form method="post" asp-action="Login" asp-controller="Cuenta" id="frmLogin" LoadingElementId="loader">
+                                    @Html.AntiForgeryToken()
                                     <div class="mb-3">
                                         <label for="inputUser" class="form-label">Usuario</label>
                                         <input id="inputUser" type="text" class="form-control" required asp-for="userName" />

@@ -125,6 +125,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public string SaveUser(Usuario user)
         {
             string resp = string.Empty;
@@ -178,6 +179,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public string SaveEditUser(Usuario user)
         {
             string resp = string.Empty;

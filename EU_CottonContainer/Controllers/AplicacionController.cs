@@ -54,6 +54,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveAddApp(Aplicacion app)
         {
             string resp = string.Empty;
@@ -99,6 +100,7 @@ namespace EU_CottonContainer.Controllers
         }
 
         [HttpPost]
+        [AutoValidateAntiforgeryToken]
         public string SaveEditApp(Aplicacion app)
         {
             string resp = string.Empty;
